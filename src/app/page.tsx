@@ -155,7 +155,7 @@ export default function Home() {
       <section className="py-20 px-6 max-w-6xl mx-auto">
         <div className="bg-gradient-to-r from-nexos-darker to-black border border-white/5 rounded-2xl overflow-hidden flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 p-12">
-            <h2 className="text-3xl font-bold mb-2">João Gabriel</h2>
+            <h2 className="text-3xl font-bold mb-2">João Guilherme</h2>
             <h3 className="text-nexos-gold text-lg mb-6 uppercase tracking-widest font-semibold">CEO & Founder • Especialista em IA</h3>
             <p className="text-gray-400 mb-6 leading-relaxed">
               O meu objetivo com a Nexos não é apenas prestar um serviço comum de marketing. A finalidade principal da nossa empresa é <strong>levar a revolução tecnológica das grandes big techs para a realidade dos negócios locais</strong>. 
@@ -166,8 +166,8 @@ export default function Home() {
           </div>
           <div className="md:w-1/2 relative h-96 w-full">
             <Image 
-              src="/ceo-night.png" 
-              alt="João Gabriel - CEO Nexos" 
+              src="/ceo-blue.png" 
+              alt="João Guilherme - CEO Nexos" 
               fill 
               className="object-cover object-top"
             />
