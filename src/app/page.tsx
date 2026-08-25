@@ -161,7 +161,7 @@ export default function Home() {
               O meu objetivo com a Nexos não é apenas prestar um serviço comum de marketing. A finalidade principal da nossa empresa é <strong>levar a revolução tecnológica das grandes big techs para a realidade dos negócios locais</strong>. 
             </p>
             <p className="text-gray-400 leading-relaxed">
-              Acredito na "alavancagem de código". Desenho ecossistemas onde o Tráfego injeta oxigênio e a IA escala o seu tempo, criando verdadeiras máquinas de fazer dinheiro para os nossos parceiros. 
+              Acredito na &quot;alavancagem de código&quot;. Desenho ecossistemas onde o Tráfego injeta oxigênio e a IA escala o seu tempo, criando verdadeiras máquinas de fazer dinheiro para os nossos parceiros. 
             </p>
           </div>
           <div className="md:w-1/2 relative h-96 w-full">
