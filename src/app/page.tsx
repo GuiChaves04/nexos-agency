@@ -90,6 +90,17 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="pt-40 pb-20 px-6 max-w-6xl mx-auto flex flex-col items-center text-center">
+        
+        <div className="relative w-40 h-40 md:w-56 md:h-56 mb-8 mt-4 animate-fade-in">
+          <div className="absolute inset-0 bg-nexos-gold/20 blur-3xl rounded-full"></div>
+          <Image 
+            src="/logo.jpg" 
+            alt="Nexos Logo" 
+            fill 
+            className="object-cover rounded-3xl shadow-[0_0_50px_rgba(212,175,55,0.3)] relative z-10 border border-white/5" 
+          />
+        </div>
+
         <div className="inline-block mb-6 px-4 py-1 rounded-full border border-nexos-gold/30 bg-nexos-gold/10 text-nexos-goldLight text-sm font-medium tracking-wide">
           INTELIGÊNCIA ARTIFICIAL & TRÁFEGO DE ALTA PERFORMANCE
         </div>
