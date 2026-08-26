@@ -51,19 +51,15 @@ export default function Home() {
     setStatus("loading");
     
     try {
-      // Substitua pela URL do seu Webhook do n8n
-      const webhookUrl = "https://seu-n8n-dominio.com/webhook/agendamento-nexos"; 
+      // URL real do Webhook do Make.com
+      const webhookUrl = "https://hook.us2.make.com/h7dv4vvdmht49fvb6vl26nqysl8p58rs"; 
       
-      // Simulação de envio para não quebrar sem a URL real
-      await new Promise(r => setTimeout(r, 1500));
-      
-      /* 
+      // Enviando dados reais para a automação
       await fetch(webhookUrl, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
       });
-      */
       
       setStatus("success");
     } catch (err) {
